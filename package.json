@@ -1,0 +1,25 @@
+{
+  "name": "header-parser-service",
+  "version": "1.0.1",
+  "description": "This service gets the IP address, language and operating system for your browser.",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pytong/header-parser-service"
+  },
+  "homepage": "https://header-parser-service.herokuapp.com",
+  "bugs": "https://github.com/pytong/header-parser-service/issues",
+  "keywords": [
+    "request header parser",
+    "Express",
+    "Node"
+  ],
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Puiyee Tong",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
